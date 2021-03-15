@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">BookYourApartment</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Calendar</string>
+    <string name="title_notifications">Profile</string>
+    
+    <string-array name="apartment_titles">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+        <item>Five</item>
+        <item>Sis</item>
+        <item>Seven</item>
+        <item>Eight</item>
+        <item>Nine</item>
+        <item>Ten</item>
+    </string-array>
+
+    <string-array name="apartment_descriptions">
+        <item>Here is the apartment description.</item>
+        <item>Here is the apartment description.</item>
+        <item>Here is the apartment description.</item>
+        <item>Here is the apartment description.</item>
+        <item>Here is the apartment description.</item>
+        <item>Here is the apartment description.</item>
+        <item>Here is the apartment description.</item>
+        <item>Here is the apartment description.</item>
+        <item>Here is the apartment description.</item>
+        <item>Here is the apartment description.</item>
+    </string-array>
+</resources>
