@@ -21,7 +21,7 @@ public class HomeFragment extends Fragment {
 
     private HomeViewModel homeViewModel;
 
-    String s1[], s2[];
+    String titles[], statuses[];
     int images[]={R.drawable.ic_launcher_background,R.drawable.ic_launcher_background,R.drawable.ic_launcher_background,
             R.drawable.ic_launcher_background,R.drawable.ic_launcher_background,R.drawable.ic_launcher_background,
             R.drawable.ic_launcher_background,R.drawable.ic_launcher_background,R.drawable.ic_launcher_background,
@@ -37,10 +37,10 @@ public class HomeFragment extends Fragment {
 
         recyclerViewHome = root.findViewById(R.id.home_recycler);
 
-        s1 = getResources().getStringArray(R.array.apartment_titles);
-        s2 = getResources().getStringArray(R.array.apartment_descriptions);
+        titles = getResources().getStringArray(R.array.apartment_titles);
+        statuses = getResources().getStringArray(R.array.apartment_descriptions);
 
-        RecyclerViewAdapter recyclerViewAdapter = new RecyclerViewAdapter(root.getContext(), s1, s2, images);
+        RecyclerViewAdapter recyclerViewAdapter = new RecyclerViewAdapter(root.getContext(), titles, statuses, images);
         recyclerViewHome.setAdapter(recyclerViewAdapter);
         recyclerViewHome.setLayoutManager(new LinearLayoutManager(root.getContext()));
 
